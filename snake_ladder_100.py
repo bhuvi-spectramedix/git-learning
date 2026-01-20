@@ -47,7 +47,7 @@ def apply_snakes_ladders(position: int) -> int:
 
 
 def turn_step(player: Player) -> bool:
-    input(f"\n{player.name}, press Enter to roll the dice… ")
+    input(f"\n{player.name}, Press Enter to roll the dice… ")
     dice = roll_dice()
     print(f"  🎲 {player.name} rolled a {dice}.")
 
@@ -60,7 +60,7 @@ def turn_step(player: Player) -> bool:
     print(f"  {player.name} moves to {player.pos}.")
 
     if player.pos == TARGET:
-        print(f"\n🏁 {player.name} wins! 🏆")
+        print(f"\n🏁 {player.name} Wins! 🏆")
         return True
     return False
 
