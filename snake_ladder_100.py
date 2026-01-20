@@ -13,7 +13,7 @@ from typing import Dict, List
 
 # Standard board configuration (popular variant)
 LADDERS: Dict[int, int] = {
-    2: 38, 7: 14, 8: 31, 15: 26, 21: 42,
+    2: 40, 7: 14, 8: 31, 15: 26, 21: 42,
     28: 84, 36: 44, 51: 67, 71: 91, 78: 98
 }
 SNAKES: Dict[int, int] = {
